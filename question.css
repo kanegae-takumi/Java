@@ -17,6 +17,9 @@ th,
 td {
   padding-bottom: 10px;
 }
+th {
+  vertical-align: top;
+}
 td {
   padding-left: 10px;
 }

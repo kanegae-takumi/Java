@@ -12,11 +12,23 @@
     <main>
       <h1>&nbsp&nbsp質問投稿</h1>
       <hr />
-      <form action="/★" method="post" onsubmit="return validateForm()">
+      <form
+        action="questionConfirm.html"
+        method="post"
+        onsubmit="return validateForm()"
+      >
         <table>
           <tr>
             <th>タイトル</th>
-            <td><input type="text" name="title" id="title" required /></td>
+            <td>
+              <input
+                type="text"
+                name="title"
+                id="title"
+                style="width: 100%"
+                required
+              />
+            </td>
           </tr>
           <tr>
             <th>質問本文</th>
@@ -26,6 +38,7 @@
                 id="content"
                 rows="5"
                 cols="40"
+                style="width: 100%"
               ></textarea>
             </td>
           </tr>
